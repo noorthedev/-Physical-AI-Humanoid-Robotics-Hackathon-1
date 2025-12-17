@@ -82,7 +82,7 @@ const config: Config = {
   // ⚠️ Maine aapka pura themeConfig object yahan shift kar diya hai.
   themeConfig: {
     // Replace with your project's social card
-    image: '/img/robot-textbook.png',
+    image: 'img/logo.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -90,7 +90,7 @@ const config: Config = {
       title: 'Physical AI & Humanoid Robotics',
       logo: {
         alt: 'Text Book',
-        src: 'img/robot-textbook.png',
+        src: 'img/logo.png',
       },
       items: [
         {
