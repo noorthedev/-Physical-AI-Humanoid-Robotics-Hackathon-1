@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://noorthedev.github.io',
+  url: 'https://physical-ai-humanoid-robotics-hackathon-1-acfffmzkr.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -82,7 +82,7 @@ const config: Config = {
   // ⚠️ Maine aapka pura themeConfig object yahan shift kar diya hai.
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/robot-textbook.png',
+    image: '/img/robot-textbook.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -97,7 +97,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Chapters',
+          label: 'Chapters    ',
         },
 
 
