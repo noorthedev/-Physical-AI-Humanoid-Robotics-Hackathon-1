@@ -52,7 +52,7 @@ const PersonalizeButton: React.FC<PersonalizeButtonProps> = ({
         setError(null);
 
         const preferences = getUserPreferences();
-        const backendUrl = (window as any).BACKEND_API_URL || 'http://localhost:8000';
+        const backendUrl = (window as any).BACKEND_API_URL || 'https://rajput66-deploy-hackathon-1.hf.space/';
 
         try {
             const response = await fetch(`${backendUrl}/api/personalize`, {

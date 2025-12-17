@@ -26,7 +26,7 @@ const TranslateButton: React.FC<TranslateButtonProps> = ({
         setIsLoading(true);
         setError(null);
 
-        const backendUrl = (window as any).BACKEND_API_URL || 'http://localhost:8000';
+        const backendUrl = (window as any).BACKEND_API_URL || 'https://rajput66-deploy-hackathon-1.hf.space/';
 
         try {
             const response = await fetch(`${backendUrl}/api/translate`, {
