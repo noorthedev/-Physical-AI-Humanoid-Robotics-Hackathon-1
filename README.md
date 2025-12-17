@@ -146,7 +146,8 @@ project-root/
 └── README.md            # Project documentation
 ```
 ## Screenshots
-![alt text](image.png)
+![Uploading image.png…]()
+
 
 ## Local Development
 
@@ -169,12 +170,6 @@ npm run start
 ```
 
 The site will be available at:
-
-```
-http://localhost:3000
-```
-
----
 
 ## Build & Deployment
 
